@@ -24,6 +24,10 @@ usuario: Adição, login e restauração ao estado inicial
 produto: Gestão dos produtos de um usuário
 componente: Gestão dos componentes de um determinado produto
 
+## Resultado dos testes com o Postman
+
+![Postman](https://github.com/carolprotasio/Lojinha-Postman/blob/main/postman-test.png)
+
 # Especificações da API Lojinha
 
 A documentação completa da API, incluindo todos os endpoints, parâmetros e respostas, pode ser encontrada no arquivo swagger.yml incluído no projeto. Utilize esse arquivo para obter detalhes completos sobre como interagir com a API.
