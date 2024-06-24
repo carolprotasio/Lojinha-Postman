@@ -1,1 +1,43 @@
 # Lojinha-Postman
+
+## Coleção do Postman
+
+Esta é a coleção do Postman utilizada para testar e documentar a Lojinha-API. A coleção inclui todas as requisições HTTP necessárias para interagir com a API de maneira eficiente.
+A Lojinha API foi criada por Júlio de Lima para apoiar seus alunos na aprendizagem de técnicas e ferramentas de teste de software. Esta API permite a gestão de usuários, produtos e componentes, fornecendo endpoints para adicionar, consultar, atualizar e remover esses itens.
+
+Versão
+Versão: 2.0.0
+
+# Documentação da API Lojinha
+
+## Introdução
+Este documento descreve as operações disponíveis na API da Lojinha, que permite interações com usuários e produtos através de endpoints específicos.
+
+## Host e Base Path
+ - Host: 165.227.93.41
+ - Base Path: /lojinha
+
+## Tags
+usuario: Adição, login e restauração ao estado inicial
+produto: Gestão dos produtos de um usuário
+componente: Gestão dos componentes de um determinado produto
+
+# Especificações da API Lojinha
+
+A documentação completa da API, incluindo todos os endpoints, parâmetros e respostas, pode ser encontrada no arquivo swagger.yml incluído no projeto. Utilize esse arquivo para obter detalhes completos sobre como interagir com a API.
+
+## Testando com Postman
+Você pode utilizar o Postman para testar os endpoints da Lojinha API. Siga os passos abaixo para realizar os testes:
+
+## Importe o arquivo YML:
+- Abra o Postman.
+- Clique em Importar.
+- Selecione o arquivo swagger.yml do projeto.
+- Configuração do Token de Autenticação:
+
+## A maioria dos endpoints requer um token de autenticação.
+- Obtenha o token realizando uma solicitação POST para o endpoint /v2/login com suas credenciais de usuário.
+- Copie o token retornado e adicione-o no cabeçalho de suas solicitações como Authorization: Bearer {seu_token}.
+- Realizando Solicitações:
+  * Utilize os endpoints importados para realizar as solicitações desejadas (GET, POST, PUT, DELETE).
+  * Preencha os parâmetros necessários conforme descrito na documentação importada.
