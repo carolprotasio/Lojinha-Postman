@@ -20,11 +20,11 @@ Este documento descreve as operações disponíveis na API da Lojinha, que permi
  - Base Path: /lojinha
 
 ## Tags
-usuario: Adição, login e restauração ao estado inicial
-produto: Gestão dos produtos de um usuário
-componente: Gestão dos componentes de um determinado produto
+* usuario: Adição, login e restauração ao estado inicial
+* produto: Gestão dos produtos de um usuário
+* componente: Gestão dos componentes de um determinado produto
 
-## Resultado dos testes com o Postman
+# Resultado dos testes com o Postman
 
 ![Postman](https://github.com/carolprotasio/Lojinha-Postman/blob/main/postman-test.png)
 
@@ -32,7 +32,7 @@ componente: Gestão dos componentes de um determinado produto
 
 A documentação completa da API, incluindo todos os endpoints, parâmetros e respostas, pode ser encontrada no arquivo swagger.yml incluído no projeto. Utilize esse arquivo para obter detalhes completos sobre como interagir com a API.
 
-## Testando com Postman
+# Testando com Postman
 Você pode utilizar o Postman para testar os endpoints da Lojinha API. Siga os passos abaixo para realizar os testes:
 
 ## Importe o arquivo YML:
@@ -47,3 +47,12 @@ Você pode utilizar o Postman para testar os endpoints da Lojinha API. Siga os p
 - Realizando Solicitações:
   * Utilize os endpoints importados para realizar as solicitações desejadas (GET, POST, PUT, DELETE).
   * Preencha os parâmetros necessários conforme descrito na documentação importada.
+
+## Swagger da Lojinha API
+A documentação da API foi elaborada utilizando o Swagger, uma ferramenta amplamente reconhecida para documentação de APIs. O Swagger oferece uma interface interativa que permite visualizar e testar as operações da API diretamente no navegador.
+
+![Postman](https://github.com/carolprotasio/Lojinha-Postman/blob/main/swagger.png)
+
+# Conclusão do Projeto
+Este projeto foi desenvolvido como parte da Mentoria com Julio de Lima, proporcionando uma experiência de testes com o Postman. Os testes realizados abrangeram diversas funcionalidades da plataforma Lojinha-API, incluindo validações de usuários, produtos e componentes.
+Este projeto contribuiu significativamente para a melhoria das habilidades de testes com o Postman e os estudos sobre a Garantia da Qualidade do Software.
