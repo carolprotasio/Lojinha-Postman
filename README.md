@@ -5,6 +5,8 @@
 Esta é a coleção do Postman utilizada para testar e documentar a Lojinha-API. A coleção inclui todas as requisições HTTP necessárias para interagir com a API de maneira eficiente.
 A Lojinha API foi criada por Júlio de Lima para apoiar seus alunos na aprendizagem de técnicas e ferramentas de teste de software. Esta API permite a gestão de usuários, produtos e componentes, fornecendo endpoints para adicionar, consultar, atualizar e remover esses itens.
 
+![Postman](https://github.com/carolprotasio/Lojinha-Postman/blob/main/postman.png)
+
 Versão
 Versão: 2.0.0
 
@@ -32,7 +34,7 @@ Você pode utilizar o Postman para testar os endpoints da Lojinha API. Siga os p
 ## Importe o arquivo YML:
 - Abra o Postman.
 - Clique em Importar.
-- Selecione o arquivo swagger.yml do projeto.
+- Selecione o arquivo https://github.com/carolprotasio/Lojinha-Postman/blob/main/Lojinha%20API.postman_collection.json do projeto.
 - Configuração do Token de Autenticação:
 
 ## A maioria dos endpoints requer um token de autenticação.
